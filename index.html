@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <script type="text/javascript">
-
+    console.log(navigator.userAgent, navigator.userAgentData);
     async function getIPAddress() {
         try {
             const response = await fetch('https://api.ipify.org?format=json');
